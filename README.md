@@ -133,9 +133,9 @@ For detailed guidelines, check the [CONTRIBUTING.md](CONTRIBUTING.md).
 ## 📧 Contact
 For any questions or collaboration inquiries, feel free to reach out!
 
-- **Email**: your-email@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
-- **LinkedIn**: [Your Name](https://linkedin.com/in/your-profile)
+- **Email**: bagewadi.prajwal44@gmail.com
+- **GitHub**: [prajwalbagewadi](https://github.com/prajwalbagewadi)
+- **LinkedIn**: [prajwal-bagewadi](linkedin.com/in/prajwal-bagewadi-046128202/)
 
 ---
 
