@@ -1,3 +1,4 @@
+# VerSync 🚀🚀
 # Next-Generation Version Control System
 
 ## 🚀 Project Scope
