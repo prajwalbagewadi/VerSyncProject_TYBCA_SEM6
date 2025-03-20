@@ -1,0 +1,16 @@
+[nodemon] 3.1.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+Prajwal🥭📂 Server running on 🚀 port 3000
+Connected to MongoDB 🥭
+📂 Requested file path: rn1/1740144896707_Jade Global 2025 ( Master File ).xlsx
+📂 Absolute path: C:\Users\bagew\Desktop\WebDev\VCS\NotesApp\notesApp\node_Server\uploads\rn1\1740144896707_Jade Global 2025 ( Master File ).xlsx
+❌ File not found: C:\Users\bagew\Desktop\WebDev\VCS\NotesApp\notesApp\node_Server\uploads\rn1\1740144896707_Jade Global 2025 ( Master File ).xlsx
+📂 Requested file path: rn1/1740144896707_Jade Global 2025 ( Master File ).xlsx
+📂 Absolute path: C:\Users\bagew\Desktop\WebDev\VCS\NotesApp\notesApp\node_Server\uploads\rn1\1740144896707_Jade Global 2025 ( Master File ).xlsx
+❌ File not found: C:\Users\bagew\Desktop\WebDev\VCS\NotesApp\notesApp\node_Server\uploads\rn1\1740144896707_Jade Global 2025 ( Master File ).xlsx
+📂 Fetching subfolders for: C:\Users\bagew\Desktop\WebDev\VCS\NotesApp\notesApp\node_Server\uploads\rn1
+
+

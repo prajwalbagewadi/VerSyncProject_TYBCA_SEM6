@@ -1,0 +1,201 @@
+{
+    "lastState": [
+        "[nodemon] 3.1.9",
+        "[nodemon] to restart at any time, enter `rs`",
+        "[nodemon] watching path(s): *.*",
+        "[nodemon] watching extensions: js,mjs,cjs,json",
+        "[nodemon] starting `node index.js`",
+        "Prajwal🥭📂 Server running on 🚀 port 3000",
+        "Connected to MongoDB 🥭",
+        "📂 Requested file path: rn1/1740144896707_Jade Global 2025 ( Master File ).xlsx",
+        "📂 Absolute path: C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\rn1\\1740144896707_Jade Global 2025 ( Master File ).xlsx",
+        "❌ File not found: C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\rn1\\1740144896707_Jade Global 2025 ( Master File ).xlsx",
+        "📂 Requested file path: rn1/1740144896707_Jade Global 2025 ( Master File ).xlsx",
+        "📂 Absolute path: C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\rn1\\1740144896707_Jade Global 2025 ( Master File ).xlsx",
+        "❌ File not found: C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\rn1\\1740144896707_Jade Global 2025 ( Master File ).xlsx",
+        "📂 Fetching subfolders for: C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\rn1",
+        "testchanges",
+        "testchages",
+        "test",
+        "prajwal",
+        "prajwal1",
+        "abc123"
+    ],
+    "logs": [
+        {
+            "timestamp": "2025-03-03T07:02:09.529Z",
+            "changeType": "lines_removed",
+            "details": [
+                {
+                    "line": 1,
+                    "content": "[nodemon] 3.1.9"
+                },
+                {
+                    "line": 2,
+                    "content": "[nodemon] to restart at any time, enter `rs`"
+                },
+                {
+                    "line": 3,
+                    "content": "[nodemon] watching path(s): *.*"
+                },
+                {
+                    "line": 4,
+                    "content": "[nodemon] watching extensions: js,mjs,cjs,json"
+                },
+                {
+                    "line": 5,
+                    "content": "[nodemon] starting `node index.js`"
+                },
+                {
+                    "line": 6,
+                    "content": "Prajwal🥭📂 Server running on 🚀 port 3000"
+                },
+                {
+                    "line": 7,
+                    "content": "Connected to MongoDB 🥭"
+                },
+                {
+                    "line": 8,
+                    "content": "📂 Requested file path: rn1/1740144896707_Jade Global 2025 ( Master File ).xlsx"
+                },
+                {
+                    "line": 9,
+                    "content": "📂 Absolute path: C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\rn1\\1740144896707_Jade Global 2025 ( Master File ).xlsx"
+                },
+                {
+                    "line": 10,
+                    "content": "❌ File not found: C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\rn1\\1740144896707_Jade Global 2025 ( Master File ).xlsx"
+                },
+                {
+                    "line": 11,
+                    "content": "📂 Requested file path: rn1/1740144896707_Jade Global 2025 ( Master File ).xlsx"
+                },
+                {
+                    "line": 12,
+                    "content": "📂 Absolute path: C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\rn1\\1740144896707_Jade Global 2025 ( Master File ).xlsx"
+                },
+                {
+                    "line": 13,
+                    "content": "❌ File not found: C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\rn1\\1740144896707_Jade Global 2025 ( Master File ).xlsx"
+                },
+                {
+                    "line": 14,
+                    "content": "📂 Fetching subfolders for: C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\rn1"
+                },
+                {
+                    "line": 15,
+                    "content": "testchanges"
+                },
+                {
+                    "line": 16,
+                    "content": "testchages"
+                },
+                {
+                    "line": 17,
+                    "content": "test"
+                },
+                {
+                    "line": 18,
+                    "content": "prajwal"
+                },
+                {
+                    "line": 19,
+                    "content": "prajwal1"
+                }
+            ]
+        },
+        {
+            "timestamp": "2025-03-03T07:02:09.602Z",
+            "changeType": "lines_added",
+            "details": [
+                {
+                    "line": 1,
+                    "content": "[nodemon] 3.1.9"
+                },
+                {
+                    "line": 2,
+                    "content": "[nodemon] to restart at any time, enter `rs`"
+                },
+                {
+                    "line": 3,
+                    "content": "[nodemon] watching path(s): *.*"
+                },
+                {
+                    "line": 4,
+                    "content": "[nodemon] watching extensions: js,mjs,cjs,json"
+                },
+                {
+                    "line": 5,
+                    "content": "[nodemon] starting `node index.js`"
+                },
+                {
+                    "line": 6,
+                    "content": "Prajwal🥭📂 Server running on 🚀 port 3000"
+                },
+                {
+                    "line": 7,
+                    "content": "Connected to MongoDB 🥭"
+                },
+                {
+                    "line": 8,
+                    "content": "📂 Requested file path: rn1/1740144896707_Jade Global 2025 ( Master File ).xlsx"
+                },
+                {
+                    "line": 9,
+                    "content": "📂 Absolute path: C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\rn1\\1740144896707_Jade Global 2025 ( Master File ).xlsx"
+                },
+                {
+                    "line": 10,
+                    "content": "❌ File not found: C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\rn1\\1740144896707_Jade Global 2025 ( Master File ).xlsx"
+                },
+                {
+                    "line": 11,
+                    "content": "📂 Requested file path: rn1/1740144896707_Jade Global 2025 ( Master File ).xlsx"
+                },
+                {
+                    "line": 12,
+                    "content": "📂 Absolute path: C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\rn1\\1740144896707_Jade Global 2025 ( Master File ).xlsx"
+                },
+                {
+                    "line": 13,
+                    "content": "❌ File not found: C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\rn1\\1740144896707_Jade Global 2025 ( Master File ).xlsx"
+                },
+                {
+                    "line": 14,
+                    "content": "📂 Fetching subfolders for: C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\rn1"
+                },
+                {
+                    "line": 15,
+                    "content": "testchanges"
+                },
+                {
+                    "line": 16,
+                    "content": "testchages"
+                },
+                {
+                    "line": 17,
+                    "content": "test"
+                },
+                {
+                    "line": 18,
+                    "content": "prajwal"
+                },
+                {
+                    "line": 19,
+                    "content": "prajwal1"
+                }
+            ]
+        },
+        {
+            "timestamp": "2025-03-20T09:41:24.382Z",
+            "changeType": "lines_changed",
+            "details": [
+                {
+                    "line": 20,
+                    "previous": "abc",
+                    "current": "abc123"
+                }
+            ]
+        }
+    ]
+}

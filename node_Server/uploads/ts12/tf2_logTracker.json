@@ -1,0 +1,81 @@
+{
+  "logs": [
+    {
+      "timeStamp": "2025-03-03T04:22:09.109Z",
+      "changes": {
+        "added": [
+          {
+            "file": "C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\ts12\\testData\\1740975728823_Jade Global 2025 ( Master File ).xlsx",
+            "timestamp": "2025-03-03T04:22:09.099Z"
+          },
+          {
+            "file": "C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\ts12\\testData\\1740975728851_test.txt",
+            "timestamp": "2025-03-03T04:22:09.103Z"
+          },
+          {
+            "file": "C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\ts12\\testData\\D2\\1740975728938_1736933747144.pdf",
+            "timestamp": "2025-03-03T04:22:09.104Z"
+          },
+          {
+            "file": "C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\ts12\\testData\\D2\\1740975728987_1736933747156.jpg",
+            "timestamp": "2025-03-03T04:22:09.106Z"
+          },
+          {
+            "file": "C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\ts12\\testData\\tcs\\1740975728902_PRAJWALBAGEWADI_ApplicationForm (3).pdf",
+            "timestamp": "2025-03-03T04:22:09.107Z"
+          },
+          {
+            "file": "C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\ts12\\tf2_logTracker.json",
+            "timestamp": "2025-03-03T04:22:09.108Z"
+          }
+        ],
+        "changed": [],
+        "removed": []
+      }
+    },
+    {
+      "timeStamp": "2025-03-03T04:22:09.168Z",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      }
+    },
+    {
+      "timeStamp": "2025-03-03T04:22:09.187Z",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      }
+    },
+    {
+      "timeStamp": "2025-03-03T04:22:09.238Z",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      }
+    }
+  ],
+  "latestState": {
+    "C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\ts12\\testData\\1740975728823_Jade Global 2025 ( Master File ).xlsx": {
+      "timestamp": "2025-03-03T04:22:09.229Z"
+    },
+    "C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\ts12\\testData\\1740975728851_test.txt": {
+      "timestamp": "2025-03-03T04:22:09.232Z"
+    },
+    "C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\ts12\\testData\\D2\\1740975728938_1736933747144.pdf": {
+      "timestamp": "2025-03-03T04:22:09.234Z"
+    },
+    "C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\ts12\\testData\\D2\\1740975728987_1736933747156.jpg": {
+      "timestamp": "2025-03-03T04:22:09.236Z"
+    },
+    "C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\ts12\\testData\\tcs\\1740975728902_PRAJWALBAGEWADI_ApplicationForm (3).pdf": {
+      "timestamp": "2025-03-03T04:22:09.237Z"
+    },
+    "C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\ts12\\tf2_logTracker.json": {
+      "timestamp": "2025-03-03T04:22:09.237Z"
+    }
+  }
+}

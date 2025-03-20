@@ -1,0 +1,29 @@
+{
+  "logs": [
+    {
+      "timeStamp": "2025-03-03T04:48:47.908Z",
+      "changes": {
+        "added": [
+          {
+            "file": "C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\ts15\\testData - Copy\\1740977327724_test.txt",
+            "timestamp": "2025-03-03T04:48:47.904Z"
+          },
+          {
+            "file": "C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\ts15\\tf2_logTracker.json",
+            "timestamp": "2025-03-03T04:48:47.907Z"
+          }
+        ],
+        "changed": [],
+        "removed": []
+      }
+    }
+  ],
+  "latestState": {
+    "C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\ts15\\testData - Copy\\1740977327724_test.txt": {
+      "timestamp": "2025-03-03T04:48:47.904Z"
+    },
+    "C:\\Users\\bagew\\Desktop\\WebDev\\VCS\\NotesApp\\notesApp\\node_Server\\uploads\\ts15\\tf2_logTracker.json": {
+      "timestamp": "2025-03-03T04:48:47.907Z"
+    }
+  }
+}

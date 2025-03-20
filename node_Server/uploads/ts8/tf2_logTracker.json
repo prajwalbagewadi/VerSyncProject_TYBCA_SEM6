@@ -1,0 +1,84 @@
+{
+  "logs": [
+    {
+      "timeStamp": "2025-03-02T15:14:43.849Z",
+      "changes": {
+        "added": [
+          {
+            "file": "testData"
+          },
+          {
+            "file": "tf2_logTracker.json"
+          }
+        ],
+        "changed": [],
+        "removed": [],
+        "renamed": []
+      }
+    },
+    {
+      "timeStamp": "2025-03-02T15:14:43.908Z",
+      "changes": {
+        "added": [],
+        "changed": [
+          {
+            "file": "testData"
+          },
+          {
+            "file": "tf2_logTracker.json"
+          }
+        ],
+        "removed": [],
+        "renamed": []
+      }
+    },
+    {
+      "timeStamp": "2025-03-02T15:14:43.973Z",
+      "changes": {
+        "added": [],
+        "changed": [
+          {
+            "file": "testData"
+          },
+          {
+            "file": "tf2_logTracker.json"
+          }
+        ],
+        "removed": [],
+        "renamed": []
+      }
+    },
+    {
+      "timeStamp": "2025-03-02T15:14:44.025Z",
+      "changes": {
+        "added": [],
+        "changed": [
+          {
+            "file": "testData"
+          },
+          {
+            "file": "tf2_logTracker.json"
+          }
+        ],
+        "removed": [],
+        "renamed": []
+      }
+    },
+    {
+      "timeStamp": "2025-03-02T15:14:44.070Z",
+      "changes": {
+        "added": [],
+        "changed": [
+          {
+            "file": "testData"
+          },
+          {
+            "file": "tf2_logTracker.json"
+          }
+        ],
+        "removed": [],
+        "renamed": []
+      }
+    }
+  ]
+}

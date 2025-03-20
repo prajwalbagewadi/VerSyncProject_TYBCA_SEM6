@@ -1,0 +1,116 @@
+{
+  "logs": [
+    {
+      "timeStamp": "2025-03-02T10:31:58.205Z",
+      "changes": {
+        "added": [
+          {
+            "file": "testData"
+          },
+          {
+            "file": "tf2_logTracker.json"
+          }
+        ],
+        "changed": [],
+        "removed": [],
+        "renamed": []
+      }
+    },
+    {
+      "timeStamp": "2025-03-02T12:57:01.789Z",
+      "changes": {
+        "added": [],
+        "changed": [
+          {
+            "file": "testData"
+          },
+          {
+            "file": "tf2_logTracker.json"
+          }
+        ],
+        "removed": [],
+        "renamed": []
+      }
+    },
+    {
+      "timeStamp": "2025-03-02T15:00:11.438Z",
+      "changes": {
+        "added": [],
+        "changed": [
+          {
+            "file": "testData"
+          },
+          {
+            "file": "tf2_logTracker.json"
+          }
+        ],
+        "removed": [],
+        "renamed": []
+      }
+    },
+    {
+      "timeStamp": "2025-03-02T15:00:11.484Z",
+      "changes": {
+        "added": [],
+        "changed": [
+          {
+            "file": "testData"
+          },
+          {
+            "file": "tf2_logTracker.json"
+          }
+        ],
+        "removed": [],
+        "renamed": []
+      }
+    },
+    {
+      "timeStamp": "2025-03-02T15:00:11.533Z",
+      "changes": {
+        "added": [],
+        "changed": [
+          {
+            "file": "testData"
+          },
+          {
+            "file": "tf2_logTracker.json"
+          }
+        ],
+        "removed": [],
+        "renamed": []
+      }
+    },
+    {
+      "timeStamp": "2025-03-02T15:00:11.536Z",
+      "changes": {
+        "added": [],
+        "changed": [
+          {
+            "file": "testData"
+          },
+          {
+            "file": "tf2_logTracker.json"
+          }
+        ],
+        "removed": [],
+        "renamed": []
+      }
+    },
+    {
+      "timeStamp": "2025-03-02T15:00:11.620Z",
+      "changes": {
+        "added": [],
+        "changed": [
+          {
+            "file": "testData"
+          },
+          {
+            "file": "tf2_logTracker.json"
+          }
+        ],
+        "removed": [],
+        "renamed": []
+      }
+    }
+  ]
+}

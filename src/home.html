@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function toggleCard() {
+        document.getElementById("card").classList.toggle("hidden");
+      }
+    </script>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-black min-h-screen flex justify-center p-4">
+    <div class="w-full flex flex-col">
+      <!-- Combined User Profile and Search Bar Section -->
+      <div class="flex flex-col bg-white p-4 rounded-2xl shadow-lg w-full">
+        <div class="flex items-center justify-between mb-4">
+          <div class="flex items-center">
+            <img
+              src="https://i.pinimg.com/736x/1a/c1/97/1ac197277049388c147ecb96114cd84f.jpg"
+              alt="User Avatar"
+              class="w-10 h-10 rounded-full border-2 border-gray-300 object-cover"
+            />
+            <div class="ml-4 text-gray-700">
+              <p class="font-semibold">Taro Sakamoto</p>
+              <p class="text-sm text-gray-500">View Profile</p>
+            </div>
+          </div>
+          <button class="text-green-500 font-bold hover:text-green-600">
+            Edit
+          </button>
+        </div>
+
+        <!-- Search Bar -->
+        <div
+          class="flex items-center bg-white border-2 border-black rounded-2xl shadow-lg p-2"
+        >
+          <input
+            type="text"
+            class="w-full p-2 rounded-l-2xl outline-none text-gray-700 placeholder-gray-500 focus:ring-2 focus:ring-green-500"
+            placeholder="Search..."
+          />
+          <select
+            name="search_by"
+            id="search_by"
+            class="p-2 bg-gray-200 border-l border-gray-400 focus:ring-2 focus:ring-green-500"
+          >
+            <option value="name">Name</option>
+            <option value="date">Date</option>
+            <option value="tag">Tag</option>
+          </select>
+          <button
+            class="px-4 py-2 bg-green-500 text-white font-bold rounded-r-2xl hover:bg-green-600 transition"
+          >
+            🔍
+          </button>
+        </div>
+      </div>
+
+      <!-- Add Button -->
+      <div class="mt-6 flex justify-center">
+        <button
+          onclick="toggleCard()"
+          class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md w-full"
+        >
+          <span
+            class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"
+          ></span>
+          <span
+            class="w-full relative px-6 py-3 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400 text-center"
+          >
+            <span class="relative text-white">Add Repos</span>
+          </span>
+        </button>
+      </div>
+
+      <!-- Centered Card (Initially Hidden) -->
+      <div
+        id="card"
+        class="hidden mt-6 bg-white p-6 rounded-2xl shadow-lg max-w-md mx-auto flex-col"
+      >
+        <h2 class="text-xl font-bold text-gray-800">New Repository</h2>
+        <p class="text-gray-600 mt-2">Enter repository details here.</p>
+        <input
+          type="text"
+          placeholder="Repository Name"
+          class="w-full p-2 mt-2 border rounded-md focus:ring-2 focus:ring-blue-500"
+        />
+        <textarea
+          class="w-full p-2 mt-2 border rounded-md focus:ring-2 focus:ring-blue-500"
+          placeholder="Description"
+        ></textarea>
+        <select
+          class="w-full p-2 mt-2 border rounded-md focus:ring-2 focus:ring-blue-500"
+        >
+          <option value="Public">Public</option>
+          <option value="Private">Private</option>
+        </select>
+        <div
+          id="dropArea"
+          class="mt-2 border-2 border-dashed border-gray-400 p-6 rounded-lg flex flex-col items-center justify-center cursor-pointer hover:bg-gray-100 transition"
+        >
+          <p class="text-gray-500 text-center">Drag & Drop files here</p>
+          <p class="text-gray-500 text-center mt-1">or click to select</p>
+          <input type="file" id="fileInput" class="hidden" multiple />
+        </div>
+        <ul id="file-list" class="mt-4 text-gray-600 text-sm"></ul>
+        <div class="flex flex-row justify-center gap-2">
+          <button
+            onclick="//toggleCard()"
+            class="mt-4 px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600"
+          >
+            Create
+          </button>
+          <button
+            onclick="toggleCard()"
+            class="mt-4 px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
