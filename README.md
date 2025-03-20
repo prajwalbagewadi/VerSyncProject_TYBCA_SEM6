@@ -71,11 +71,39 @@ cd your-repository
 ### **Install Dependencies**
 ```sh
 npm install
+install:
+-> vite 
+	-> react-app
+	-> Js
+	-> tailwindcss
+    -> npm i axios
+    -> mkdir nodeServer/
+	-> cd nodeServer/
+		-> npm init -y
+		-> npm i express
+        -> npm i mongoose
+        -> npm i nodemon
+		-> npm i jsonwebtoken
+		-> npm i bcryptjs
+		-> npm i multer
+	-> npm install react-router-dom 
+	-> npm install @monaco-editor/react axios react-select
+
 ```
 
 ### **Run the Development Server**
 ```sh
 npm run dev
+Run project :
+PS C:\Users\bagew\Desktop\WebDev\VCS\NotesApp\notesApp> npm run dev //run frontend
+PS C:\Users\bagew\Desktop\WebDev\VCS\NotesApp\notesApp\node_Server> npm run dev //run backend
+run tailwindcss :
+PS C:\Users\bagew\Desktop\WebDev\VCS\NotesApp> cd .\notesApp\
+PS C:\Users\bagew\Desktop\WebDev\VCS\NotesApp\notesApp> npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+≈ tailwindcss v4.0.2
+
+Done in 1s
+
 ```
 
 ### **Build for Production**
