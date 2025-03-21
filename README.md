@@ -64,7 +64,7 @@ This project is built using **React + Vite** to ensure fast development and opti
 ## 📂 Project Setup
 ### **Clone the Repository**
 ```sh
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/prajwalbagewadi/VerSyncProject_TYBCA_SEM6.git
 cd your-repository
 ```
 
@@ -73,21 +73,21 @@ cd your-repository
 npm install
 install:
 -> vite 
-	-> react-app
-	-> Js
-	-> tailwindcss
+-> react-app
+-> Js
+-> tailwindcss
     -> npm i axios
     -> mkdir nodeServer/
 	-> cd nodeServer/
 		-> npm init -y
 		-> npm i express
-        -> npm i mongoose
-        -> npm i nodemon
+        	-> npm i mongoose
+        	-> npm i nodemon
 		-> npm i jsonwebtoken
 		-> npm i bcryptjs
 		-> npm i multer
-	-> npm install react-router-dom 
-	-> npm install @monaco-editor/react axios react-select
+		-> npm install react-router-dom 
+		-> npm install @monaco-editor/react axios react-select
 
 ```
 
