@@ -200,3 +200,18 @@ graph TD;
 
 draw
 
+4.3 Class Diagram
+Purpose: Defines the object-oriented structure of the system, including classes, attributes, methods, and relationships.
+
+Key Classes:
+
+User (ID, Name, Email, Role)
+
+Repository (ID, Name, Owner, CreatedAt)
+
+Issue (ID, Title, Status, AssignedTo)
+
+PullRequest (ID, Status, AssignedReviewer)
+
+Review (ID, PRID, Reviewer, Status) create class diagram in mermaid
+
