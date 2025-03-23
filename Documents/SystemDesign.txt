@@ -410,3 +410,66 @@ sequenceDiagram
     end
 
     Admin ->> VCS: Manage Users, Repositories, Configurations
+
+4.6 Sequence Diagram
+. create a mermaid diagram for VCS
+
+sequenceDiagram
+    title Version Control System (VCS) Sequence Diagram
+
+    participant Developer
+    participant Reviewer
+    participant Admin
+    participant VCS as "Version Control System"
+    participant DB as "Database"
+    participant Notify as "Notification Service"
+
+    Developer ->> VCS: Create Repository
+    VCS ->> DB: Store Repository Details
+    DB ->> VCS: Confirm Storage
+    VCS ->> Developer: Repository Created
+
+    Developer ->> VCS: Submit Issue
+    VCS ->> DB: Store Issue Details
+    VCS ->> Notify: Send Notification to Assigned Developer
+    Notify ->> Developer: Issue Assigned
+
+    Developer ->> VCS: Push Code Changes
+    VCS ->> DB: Store Updated Code
+    VCS ->> Notify: Notify Reviewer
+
+    Reviewer ->> VCS: Review Pull Request
+    VCS ->> DB: Update Review Status
+    alt Approved
+        VCS ->> DB: Merge Code
+        VCS ->> Developer: PR Merged Successfully
+    else Rejected
+        VCS ->> Developer: Request Changes
+        Developer ->> VCS: Modify Code & Resubmit
+    end
+
+    Admin ->> VCS: Manage Users, Repositories, Configurations
+
+4.7 Deployment Diagram
+Purpose: Defines the physical architecture of the system, including servers, databases, and client-side applications.
+
+Components:
+✅ Frontend Server (React.js) – User interface.
+✅ Backend Server (Node.js) – Handles API requests.
+✅ Database (MongoDB Atlas) – Stores repository and user data.
+✅ Cloud Storage – Stores large files and repositories.
+
+
+graph TD;
+    
+    subgraph "User Devices"
+        A[Developer] -->|Uses| B(Frontend Server)
+        C[Admin] -->|Manages| B
+    end
+
+    subgraph "Cloud Deployment"
+        B -->|Sends Requests| D(Backend Server)
+        D -->|Stores Data| E[(Database: MongoDB Atlas)]
+        D -->|Stores Large Files| F[(Cloud Storage)]
+    end
+
