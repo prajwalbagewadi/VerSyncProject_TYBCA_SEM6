@@ -356,3 +356,57 @@ endif
 
 stop
 @enduml
+
+Purpose:
+The purpose of this sequence diagram is to define the interactions between users and the Version Control System (VCS) for issue tracking. It outlines the process of submitting, managing, and resolving issues in a structured manner. This ensures that developers can efficiently track and resolve software defects while keeping the team informed.
+
+Example: Issue Tracking in VCS
+A developer submits an issue in the VCS.
+
+The system assigns relevant tags and sets the priority.
+
+A notification is sent to the assigned developer.
+
+The developer fixes the issue and pushes the changes.
+
+The VCS updates the issue status to "Resolved."
+
+A notification is sent to the reporter and team.
+
+The developer closes the issue in the system.
+
+sequenceDiagram
+    title Version Control System (VCS) Sequence Diagram
+
+    participant Developer
+    participant Reviewer
+    participant Admin
+    participant VCS as "Version Control System"
+    participant DB as "Database"
+    participant Notify as "Notification Service"
+
+    Developer ->> VCS: Create Repository
+    VCS ->> DB: Store Repository Details
+    DB ->> VCS: Confirm Storage
+    VCS ->> Developer: Repository Created
+
+    Developer ->> VCS: Submit Issue
+    VCS ->> DB: Store Issue Details
+    VCS ->> Notify: Send Notification to Assigned Developer
+    Notify ->> Developer: Issue Assigned
+
+    Developer ->> VCS: Push Code Changes
+    VCS ->> DB: Store Updated Code
+    VCS ->> Notify: Notify Reviewer
+
+    Reviewer ->> VCS: Review Pull Request
+    VCS ->> DB: Update Review Status
+    alt Approved
+        VCS ->> DB: Merge Code
+        VCS ->> Developer: PR Merged Successfully
+    else Rejected
+        VCS ->> Developer: Request Changes
+        Developer ->> VCS: Modify Code & Resubmit
+    end
+
+    Admin ->> VCS: Manage Users, Repositories, Configurations
