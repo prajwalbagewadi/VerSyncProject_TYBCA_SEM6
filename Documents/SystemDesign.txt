@@ -215,3 +215,59 @@ PullRequest (ID, Status, AssignedReviewer)
 
 Review (ID, PRID, Reviewer, Status) create class diagram in mermaid
 
+
+---
+title: Class Diagram - Version Control System
+---
+classDiagram
+    class User {
+        +String ID
+        +String Name
+        +String Email
+        +String Role
+        +createRepository()
+        +createIssue()
+        +createPullRequest()
+    }
+
+    class Repository {
+        +String ID
+        +String Name
+        +String Owner
+        +Date CreatedAt
+        +addIssue()
+        +addPullRequest()
+    }
+
+    class Issue {
+        +String ID
+        +String Title
+        +String Status
+        +String AssignedTo
+        +updateStatus()
+    }
+
+    class PullRequest {
+        +String ID
+        +String Status
+        +String AssignedReviewer
+        +mergePR()
+    }
+
+    class Review {
+        +String ID
+        +String PRID
+        +String Reviewer
+        +String Status
+        +addComments()
+    }
+
+    User "1" -- "*" Repository : owns
+    Repository "1" -- "*" Issue : contains
+    Repository "1" -- "*" PullRequest : has
+    User "1" -- "*" Issue : creates
+    User "1" -- "*" PullRequest : submits
+    PullRequest "1" -- "*" Review : receives
+    User "1" -- "*" Review : conducts
+
+
