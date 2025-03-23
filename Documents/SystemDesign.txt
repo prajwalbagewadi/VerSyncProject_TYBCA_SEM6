@@ -270,4 +270,89 @@ classDiagram
     PullRequest "1" -- "*" Review : receives
     User "1" -- "*" Review : conducts
 
+4.4 Use Case Diagram
+Purpose: Illustrates the interaction between users and system functionalities.
 
+Actors:
+
+Developer – Creates repositories, submits issues, pushes code.
+
+Reviewer – Reviews PRs, approves/rejects changes.
+
+Admin – Manages users, repositories, and configurations.
+
+Use Cases:
+✅ Create Repository
+✅ Create Issue
+✅ Assign Reviewer
+✅ Review Pull Request
+✅ Merge Code
+
+Here is the PlantUML code for the Use Case Diagram of your Version Control System (VCS):
+
+plantuml
+Copy
+Edit
+@startuml
+title Use Case Diagram - Version Control System
+
+actor Developer
+actor Reviewer
+actor Admin
+
+rectangle "Version Control System" {
+    usecase "Create Repository" as UC1
+    usecase "Create Issue" as UC2
+    usecase "Assign Reviewer" as UC3
+    usecase "Review Pull Request" as UC4
+    usecase "Merge Code" as UC5
+}
+
+Developer --> UC1
+Developer --> UC2
+Developer --> UC3
+Reviewer --> UC4
+Reviewer --> UC5
+Admin --> UC1
+Admin --> UC3
+
+@enduml
+
+
+4.5 Activity Diagram
+Purpose: Represents the flow of activities in different system processes.
+
+Example: PR Review Process
+
+Developer submits a pull request.
+
+AI assigns a priority to the PR.
+
+Reviewer receives a notification.
+
+Reviewer reviews code (approve/reject).
+
+If approved → Merge PR.
+
+If rejected → Developer modifies code and resubmits.
+
+Here is the PlantUML code for the Activity Diagram of the Pull Request (PR) Review Process in your Version Control System (VCS):
+
+@startuml
+title Activity Diagram - PR Review Process
+
+start
+:Developer submits Pull Request;
+:AI assigns priority to PR;
+:Reviewer receives notification;
+
+if (Reviewer reviews code?) then (Approved)
+    :Merge PR;
+else (Rejected)
+    :Developer modifies code;
+    :Resubmits PR;
+    -> [Loop Back to Review] Reviewer receives notification;
+endif
+
+stop
+@enduml
