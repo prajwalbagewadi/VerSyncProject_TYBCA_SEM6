@@ -1,4 +1,4 @@
-# VerSync 🚀🚀
+# VerSync 🚀🚀 Project : TYBCA(Sci)
 # Next-Generation Version Control System
 
 ## 🚀 Project Scope
