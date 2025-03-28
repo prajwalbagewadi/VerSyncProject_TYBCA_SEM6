@@ -76,8 +76,8 @@ install:
 -> react-app
 -> Js
 -> tailwindcss
-    -> npm i axios
-    -> mkdir nodeServer/
+-> npm i axios
+    	-> mkdir nodeServer/
 	-> cd nodeServer/
 		-> npm init -y
 		-> npm i express
@@ -94,9 +94,11 @@ install:
 ### **Run the Development Server**
 ```sh
 npm run dev
+
 Run project :
 PS C:\Users\bagew\Desktop\WebDev\VCS\NotesApp\notesApp> npm run dev //run frontend
 PS C:\Users\bagew\Desktop\WebDev\VCS\NotesApp\notesApp\node_Server> npm run dev //run backend
+
 run tailwindcss :
 PS C:\Users\bagew\Desktop\WebDev\VCS\NotesApp> cd .\notesApp\
 PS C:\Users\bagew\Desktop\WebDev\VCS\NotesApp\notesApp> npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
