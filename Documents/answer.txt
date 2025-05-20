@@ -1,0 +1,55 @@
+Here’s a well-structured answer for the form, based on your project [VerSync – Version Control and Synchronization System](https://github.com/prajwalbagewadi/VerSyncProject_TYBCA_SEM6):
+
+---
+
+### A. What was this project about? Explain its working and features in detail.
+
+The most complex project I have worked on is called **VerSync**, a full-stack MERN (MongoDB, Express, React, Node.js) web application designed for real-time version control and file synchronization. This system allows multiple users to create and manage projects, upload files, and view version history. Users can collaborate by synchronizing updates, maintaining file versions, and getting notified of changes in real-time.
+
+Key features:
+
+* User authentication (sign up, login)
+* File uploads with version tracking
+* Real-time updates using Socket.IO
+* File history viewing and rollback functionality
+* Dashboard to manage all user-created projects
+
+This platform mimics the basic idea of GitHub but with a simplified interface focused on collaborative file syncing in academic or team settings.
+
+---
+
+### B. Duration of the project
+
+The project duration was approximately **2.5 months**.
+
+---
+
+### C. Was the project part of any internship, college project or self learning
+
+This was a **college final year project** completed as part of the BCA curriculum.
+
+---
+
+### D. What was your role in the project
+
+I worked as the **full-stack developer**, handling both the frontend and backend. I designed the database schema, implemented REST APIs, built frontend components in React, and integrated real-time communication using Socket.IO.
+
+---
+
+### E. Explain all the libraries/technologies that you have used and why you used it
+
+* **React.js**: For building a responsive and dynamic frontend UI.
+* **React Router DOM**: To manage routing between pages like login, dashboard, and project view.
+* **Axios**: To make API requests to the backend.
+* **Node.js & Express.js**: For creating a scalable backend and RESTful API services.
+* **MongoDB**: To store user data, project files, and version history.
+* **Multer**: To handle file uploads securely.
+* **Socket.IO**: For real-time collaboration and update notifications.
+* **JWT (JSON Web Token)**: For secure user authentication and session management.
+* **CSS/Tailwind**: For styling and responsiveness.
+
+Each of these technologies was chosen for its scalability and developer efficiency. For example, Socket.IO was critical for enabling real-time collaboration, and JWT helped implement secure login and session control.
+
+---
+
+Let me know if you'd like this in Word/PDF or tailored for another project like your Android Expense Tracker.
